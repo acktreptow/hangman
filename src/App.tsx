@@ -65,8 +65,8 @@ function App() {
         className={styles.outcome__container}
         style={{ color: isWinner ? "green" : "red" }}
       >
-        {isWinner && "You're a winner! Refresh to try again."}
-        {isLoser && "Unlucky! Refresh to try again."}
+        {isWinner && "You're a winner! Refresh or hit enter to try again."}
+        {isLoser && "Unlucky! Refresh or hit enter to try again."}
       </div>
       <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
       <HangmanWord
