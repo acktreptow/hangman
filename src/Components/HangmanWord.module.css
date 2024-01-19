@@ -10,3 +10,9 @@
 .letter__container {
   border-bottom: 0.1em solid black;
 }
+
+@media only screen and (max-width: 600px) {
+  .word__container {
+    font-size: 4rem;
+  }
+}
