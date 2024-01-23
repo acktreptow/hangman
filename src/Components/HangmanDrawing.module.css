@@ -94,3 +94,10 @@
   width: 250px;
   background: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .right__arm {
+    width: 65px;
+    right: -65px;
+  }
+}
