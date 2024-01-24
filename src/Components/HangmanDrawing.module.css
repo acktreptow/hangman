@@ -104,4 +104,9 @@
   .left__arm {
     width: 65px;
   }
+
+  .right__leg {
+    width: 90px;
+    right: -80px;
+  }
 }
