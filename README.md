@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# Hangman React / TypeScript Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my Hangman game! This is application was built using React and TypeScript. The game randomly selects a word from a predefined list, and your goal is to guess the word letter by letter. Be careful, though – you have a limited number of incorrect guesses before the hangman is complete.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Randomly selects a word from a predefined list.
+- Tracks guessed letters and updates the hangman drawing accordingly.
+- Informs you if you win or lose the game.
+- Supports both keyboard and mouse inputs for letter guesses.
+- Responsive design created through CSS modules for an optimal gaming experience.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone this repository to your local machine.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+   git clone https://github.com/acktreptow/hangman.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory.
+
+```bash
+   cd hangman
+```
+
+3. Install the required dependencies.
+
+```bash
+   npm install
+```
+
+4. Run the application by using the following command:
+
+```bash
+  npm run dev
+```
+
+## How to Play
+
+1. The game will start with a randomly selected word.
+2. Use the keyboard to guess letters.
+3. Each incorrect letter adds to the hangman drawing.
+4. Win the game by guessing the entire word before the hangman is complete.
+5. Refresh the page or press Enter to start a new game.
+
+## Customization
+
+Feel free to customize the game by modifying the code. You can add more words to the `wordList.json` file, change the styling in `.module.css` files, or tweak the game logic in `App.tsx`.
+
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and submit a pull request.
+4. Ensure your code passes any existing tests.
+
+## License
+
+This Hangman React application is open-source and available under the MIT License. Feel free to use, modify, and distribute it as you see fit. Enjoy playing!
