@@ -61,6 +61,10 @@ If you'd like to contribute to this project, please follow these steps:
 
 I would like to add a difficulty mode (number of guesses) and perhaps different genres of lists of words (sports/movies) etc.
 
+## Contact
+
+If you have any questions or feedback, please reach out to me at [alex@treptow.dev](mailto:alex@treptow.dev)
+
 ## License
 
 This Hangman React application is open-source and available under the MIT License. Feel free to use, modify, and distribute it as you see fit. Enjoy playing!
