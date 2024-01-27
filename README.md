@@ -42,7 +42,8 @@ Welcome to my Hangman game! This is application was built using React and TypeSc
 2. Use the keyboard to guess letters.
 3. Each incorrect letter adds to the hangman drawing.
 4. Win the game by guessing the entire word before the hangman is complete.
-5. Refresh the page or press Enter to start a new game.
+5. Lose the game by incorrectly guessing 6 letters.
+6. Refresh the page or press Enter to start a new game.
 
 ## Customization
 
