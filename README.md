@@ -1,6 +1,6 @@
 # Hangman React / TypeScript Application
 
-Welcome to my Hangman game! This is application was built using React and TypeScript. The game randomly selects a word from a predefined list, and your goal is to guess the word letter by letter. Be careful, though – you have a limited number of incorrect guesses before the hangman is complete.
+This is hangman application was built using React and TypeScript. The game randomly selects a word from a predefined list, and your goal is to guess the word letter by letter. Be careful, though – you have only get 6 incorrect guesses before the hangman is complete.
 
 ## Features
 
